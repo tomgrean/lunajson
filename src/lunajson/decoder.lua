@@ -120,7 +120,7 @@ local function newdecoder()
 		if num then
 			num = fixedtonumber(num)
 		else
-			num = 0.0
+			num = 0
 		end
 		if mns then
 			num = -num
@@ -147,7 +147,7 @@ local function newdecoder()
 		end
 
 		pos = postmp
-		num = fixedtonumber(num)-0.0
+		num = fixedtonumber(num)
 		if mns then
 			num = -num
 		end
